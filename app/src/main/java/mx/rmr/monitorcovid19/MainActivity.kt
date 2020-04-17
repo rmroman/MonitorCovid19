@@ -55,7 +55,6 @@ class MainActivity : AppCompatActivity(), ListenerListaPais
                             val nombrePais = dPais.getString("country")
                             val numeroCasos = dPais.getInt("cases")
                             val pais = Pais(nombrePais, numeroCasos)
-                            arrPaises.add(pais)
                             arrPaises.add(0,pais)
                         }
                         adaptadorPaises?.arrPaises = arrPaises.toTypedArray()
