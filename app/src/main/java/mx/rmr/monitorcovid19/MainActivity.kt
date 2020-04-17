@@ -12,6 +12,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONArray
 import org.json.JSONObject
 
+/*
+Roberto Martínez Román
+https://corona.lmao.ninja/docs/
+ */
 class MainActivity : AppCompatActivity(), ListenerListaPais
 {
     var adaptadorPaises: AdaptadorPaises? = null
